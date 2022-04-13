@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport"content="width=device-width, initial-scale=1,maximum-scale=5"/>
+    <link rel="icon" href="devchallenges.png" />
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <section class="profile-section">
+        <img class="profile-pic" src="https://github.com/jdegand.png" alt="">
+        <h1>jdegand</h1>
+        <p>Web Developer</p>
+        <p>Jack of all Programming - Good at JavaScript</p>
+      </section>
+      <section class="skill-progress-section">
+        <h2>Front End</h2>
+        <div class="flex">
+          <h3>Angular</h3>
+          <div class="meter">
+            <span style="width: 50%"></span>
+          </div>
+        </div>
+        <div class="flex">
+          <h3>Bootstrap</h3>
+          <div class="meter">
+            <span style="width: 75%"></span>
+          </div>
+        </div>
+        <div class="flex">
+          <h3>CSS</h3>
+          <div class="meter">
+            <span style="width: 80%"></span>
+          </div>
+        </div>
+        <div class="flex">
+          <h3>HTML</h3>
+          <div class="meter">
+            <span style="width: 85%"></span>
+          </div>
+        </div>
+        <div class="flex">
+          <h3>JavaScript</h3>
+          <div class="meter">
+            <span style="width: 85%"></span>
+          </div>
+        </div>
+        <div class="flex">
+          <h3>React</h3>
+          <div class="meter">
+            <span style="width: 80%"></span>
+          </div>
+        </div>
+      </section>
+      <section class="skill-progress-section">
+        <h2>Back End</h2>
+        <div class="flex">
+          <h3>Django</h3>
+            <div class="meter">
+              <span style="width: 25%"></span>
+            </div>
+        </div>
+        <div class="flex">
+          <h3>Express</h3>
+          <div class="meter">
+            <span style="width: 75%"></span>
+          </div>
+        </div>
+        <div class="flex">
+          <h3>Next</h3>
+          <div class="meter">
+            <span style="width: 65%"></span>
+          </div>
+        </div>
+        <div class="flex">
+          <h3>Node</h3>
+          <div class="meter">
+            <span style="width: 70%"></span>
+          </div>
+        </div>
+      </section>
+      <section class="skill-progress-section">
+        <h2>Miscellaneous</h2>
+        <div class="flex">
+          <h3>C#</h3>
+          <div class="meter">
+            <span style="width: 25%"></span>
+          </div>
+        </div>
+        <div class="flex">
+          <h3>D3</h3>
+          <div class="meter">
+            <span style="width: 25%"></span>
+          </div>
+        </div>
+        <div class="flex">
+          <h3>GraphQL</h3>
+          <div class="meter">
+            <span style="width: 50%"></span>
+          </div>
+        </div>
+        <div class="flex">
+          <h3>Python</h3>
+          <div class="meter">
+            <span style="width: 25%"></span>
+          </div>
+        </div>
+        <div class="flex">
+          <h3>Ruby</h3>
+          <div class="meter">
+            <span style="width: 25%"></span>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h2 class="font-size-20">Coding Challenges Completed</h2>
+        <dl>
+          <dt>CSS Battle</dt>
+          <dd>108</dd>
+        </dl>
+        <dl>
+          <dt>DevChallenges</dt>
+          <dd>9</dd>
+        </dl>
+        <dl>
+          <dt>Frontend Mentor</dt>
+          <dd>59</dd>
+        </dl>
+        <dl>
+          <dt>Frontend Practice</dt>
+          <dd>10</dd>
+        </dl>
+        <dl>
+          <dt>Odin Project</dt>
+          <dd>27</dd>
+        </dl>
+        <dl>
+          <dt>React for Static Web</dt>
+          <dd>4</dd>
+        </dl>
+      </section>
+      <section class="hobbies-section">
+        <h2>Hobbies</h2>
+        <div class="hobbies-flex">
+          <div>
+            <h3>Guitar</h3>
+            <img src="pexels-peter-jarkuliš-287202.jpg" alt="">
+            <p class="attribution">Photo by Peter Jarkuliš on Pexels</p>
+            <p class="margin-block-20">Sadly, Rock is dead and most "hits" are plagiarized.</p>
+          </div>
+          <div>
+            <h3>Reading</h3>
+            <img src="pexels-tamás-mészáros-12064.jpg" alt="">
+            <p class="attribution">Photo by Tamás Mészáros on Pexels</p>
+            <p class="margin-block-20">Genres: plays, philosophy, cryptography, math, and social science.</p>
+          </div>
+          <div>
+            <h3>Walking</h3>
+            <img src="arek-adeoye-ljoCgjs63SM-unsplash.jpg" alt="">
+            <p class="attribution">Photo by Arek Adeoye on Unsplash</p>
+            <p class="margin-block-20">Regardless of weather, I walk everyday. 800+ days straight.</p>
+          </div>
+        </div>
+      </section>
+      <section class="projects-section">
+        <h2 class="projects-heading">Projects</h2>
+        <div class="filters">
+          <span class="filter" data-filter="odin">#OdinProject</span>
+          <span class="filter" data-filter="frontend">#FrontendMentor</span>
+          <span class="filter" data-filter="dev">#DevChallenges</span>
+          <span id="all" class="filter" data-filter="all">All</span>
+        </div> 
+        <div class="projects">
+          <div class="project" data-filter="odin">
+            <div>
+              <img src="middle-screenshot.png" alt="">
+            </div>
+            <div>
+              <p>#OdinProject</p>
+              <h3>Odin Project Building with Responsive Design</h3>
+              <p class="margin-block-20">This layout adapts for phone, tablet, desktop screen sizes.  It is based on thenextweb website.  There is multiple navbars etc.  This is from over a year ago.</p>
+              <a class="demo" target="_blank" href="https://jdegand.github.io/odin-project-building-with-responsive-design">Demo</a>
+              <a class="code" target="_blank" href="https://github.com/jdegand/odin-project-building-with-responsive-design">Code</a>
+            </div>
+          </div>
+          <div class="project" data-filter="frontend">
+            <div>
+              <img src="job-listing-desktop.png" alt="">
+            </div>
+            <div>
+              <p>#FrontendMentor</p>
+              <h3>Job listings with filtering</h3>
+              <p class="margin-block-20">This project was done in React with class components.  I learned React before hooks existed.  Since the project, I have done many React projects and I am way more comfortable with React.</p>
+              <a class="demo" target="_blank" href="https://jdegand.github.io/job-listings-with-filtering">Demo</a>
+              <a class="code" target="_blank" href="https://github.com/jdegand/job-listings-with-filtering">Code</a>
+            </div>
+          </div>
+          <div class="project" data-filter="dev">
+            <div>
+              <img src="checkout-page-desktop.png" alt="">
+            </div>
+            <div>
+              <p>#DevChallenges</p>
+              <h3>Checkout Page</h3>
+              <p class="margin-block-20">For this project, I used React Hook Form for the first time.  I am always looking at new things.  I had looked at Formik and React Hook Form is the closest rival. React Hook Form is simple to implement and requires little effort from developers.</p>
+              <a class="demo" target="_blank" href="https://jdegand.github.io/checkout-page">Demo</a>
+              <a class="code" target="_blank" href="https://github.com/jdegand/checkout-page">Code</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

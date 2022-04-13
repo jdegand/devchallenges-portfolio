@@ -1,0 +1,308 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  background: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+   scroll-behavior: auto;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+section {
+    background: #fff;
+    border-radius: 16px;
+    padding: 10px;
+    margin-block-end: 10px;
+    width: 90vw;
+}
+
+dl {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+dt {
+    font-weight: bolder;
+}
+
+h2 {
+    margin-block-end: 10px;
+} 
+
+a {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 16px;
+    border: none;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.demo {
+    background: #2f80ed;
+    color: #fff;
+}
+
+.code {
+    padding: 8px 18px;
+    background: #fff;
+    border: 2px solid #2f80ed;
+    color: #2f80ed;
+    letter-spacing: 1px;
+}
+
+.meter {
+    box-sizing: content-box;
+    height: 10px;
+    width: 200px;
+    position: relative;
+    background: #c4c4c4;
+    border-radius: 25px;
+    margin-inline: 10px;
+  }
+.meter > span {
+    display: block;
+    height: 100%;
+    border-radius: 16px;
+    background-color: #2e85ec;
+    position: relative;
+    overflow: hidden;
+}
+
+.font-size-20 {
+    font-size: 20px;
+}
+
+.flex h3 {
+    color: #7c747c;
+    width: 100px;
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.attribution {
+    font-size: 13px;
+    color: #7c747c;
+}
+
+.filters {
+    display: flex;
+    flex-wrap: wrap;
+    background: #f2f2f2;
+}
+
+.filter {
+    cursor: pointer;
+    border: 2px solid #2f80ed;
+    border-radius: 16px;
+    font-size: 20px;
+    padding: 0 10px;
+    color: #2f80ed;
+    font-family: bolder;
+    margin: 10px;
+}
+
+.margin-block-20 {
+    margin-block: 20px;
+}
+
+.project {
+    margin-block: 60px;
+}
+
+.show {
+    display: flex;
+    flex-direction: column;
+}
+
+.projects-section {
+    padding: 0;
+}
+
+.projects {
+    padding: 10px;
+}
+
+.projects-heading {
+    margin-inline-start: 10px;
+}
+
+progress {
+    height: 10px;
+    width: 200px;
+    margin-inline: 10px;
+    border-radius: 25px;
+}
+/* 
+styling if replacing meter bar with semantic html progress tag
+
+.flex label {
+    font-size: 18px;
+    color: #7c747c;
+    font-weight: bolder;
+}
+
+progress::-webkit-progress-bar {
+    background: #c4c4c4;
+    border-radius: 25px;
+}
+
+progress::-webkit-progress-value {
+    background-color: blue;
+    border-radius: 16px;
+    background-color: #2e85ec;
+}
+*/
+
+@media (min-width: 700px){
+
+    main {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        padding: 20px;
+    }
+
+
+    section {
+        width: auto;
+    }
+
+    .hobbies-section {
+        grid-column: 1 / -1;
+    }
+
+    .hobbies-section img {
+        height: 240px;
+        width: 400px;
+        object-fit: cover;
+    }
+
+    .hobbies-flex {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+
+    .project {
+        margin-block-end: 40px;
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: flex-start;
+        column-gap: 20px;
+    }
+
+    .projects {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .projects-section {
+        grid-column: 1 / -1;
+    }
+
+    .show {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media(min-width: 1050px){
+    main {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .hobbies-flex {
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+    }
+
+    .project {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.hide {
+    display: none;
+}
+
+.active {
+    background: #2f80ed;
+    color: #fff;
+}
