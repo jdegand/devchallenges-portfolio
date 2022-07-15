@@ -22,6 +22,7 @@
   - [Built With](#built-with)
 - [Features](#features)
 - [Requirements](#requirements)
+- [Thoughts](#thoughts)
 - [Useful Resources](#useful-resources)
 
 ## Overview
@@ -29,18 +30,6 @@
 ![](devchallenges-portfolio.png)
 
 ![](devchallenges-portfolio-mobile.png)
-
-- I used example 2 as my guide.
-
-- I have resisted creating a portfolio for a while now.  Portfolios / Personal Websites can become a timesink that you are *never* satified with.  
-
-- I tried using a progress tag and a label for skill bar.  WAVE tool complains about orphaned label - even when label is linked to id of progress bar.  Apparently, if a label is used not inside a form, this warning is thrown.  
-
-- I have looked into the Github API and may try another porfolio project that incorporates it.  
-
-- I have put down Python, C# and Ruby for a while and need to revisit them in the future.  
-
-- I looked at some of my past projects and found some dead links etc so I need to do a little maintenance of my repos.
 
 ### Built With
 
@@ -65,6 +54,20 @@ Optional
 - [ ] I can see blogs
 - [ ] I can see projects on different pages
 
+## Thoughts 
+
+- I used example 2 as my guide.
+
+- I have resisted creating a portfolio for a while now.  Portfolios / Personal Websites can become a timesink that you are *never* satified with.  
+
+- I tried using a progress tag and a label for skill bar.  WAVE tool complains about orphaned label - even when label is linked to id of progress bar.  Apparently, if a label is used not inside a form, this warning is thrown.  
+
+- I have looked into the Github API and may try another porfolio project that incorporates it.  
+
+- I have put down Python, C# and Ruby for a while and need to revisit them in the future.  
+
+- I looked at some of my past projects and found some dead links etc so I need to do a little maintenance of my repos.
+
 ## Useful Resources
 
 - [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
@@ -74,3 +77,4 @@ Optional
 - [Codepen](https://codepen.io/vskand/pen/MWKKKYK) - vanilla js filtering example
 - [Stack Overflow](https://stackoverflow.com/questions/2906582/how-to-create-an-html-button-that-acts-like-a-link) - html button that acts like a link
 - [Stack Overflow](https://stackoverflow.com/questions/42290719/custom-styling-progress-bar-in-css) - styling progress element
+- [Geeks for Geeks](https://www.geeksforgeeks.org/how-to-calculate-the-number-of-days-between-two-dates-in-javascript/) - calculate number of days between dates in JS
