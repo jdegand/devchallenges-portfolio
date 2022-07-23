@@ -27,7 +27,7 @@
 
 ## Overview
 
-![](devchallenges-portfolio.png)
+![](devchallenges-portfolio.png "outdated challenge numbers")
 
 ![](devchallenges-portfolio-mobile.png)
 
