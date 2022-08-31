@@ -46,7 +46,8 @@
   const Result = Math.round(present_date.getTime()-started.getTime()) / (one_day);
   
   // To remove the decimals from the (Result) resulting days value
-  const Final_Result = Result.toFixed(0);
+  // Previously used Result.toFixed(0) which counted the next day immediately
+  const Final_Result = Result.toLocaleString("en-US").slice(0,5);
 
   document.addEventListener('DOMContentLoaded', ()=> {
     document.getElementById('days').textContent = Final_Result;
