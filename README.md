@@ -62,7 +62,9 @@ Optional
 
 - I tried using a progress tag and a label for skill bar.  WAVE tool complains about orphaned label - even when label is linked to id of progress bar.  Apparently, if a label is used not inside a form, this warning is thrown.  
 
-- I have looked into the Github API and may try another porfolio project that incorporates it.  
+- Debatable if skill bars are good for your resume / portfolio. 
+
+- I used the Github API in another [porfolio project](https://github.com/jdegand/odin-project-personal-portfolio).  
 
 - I have put down Python, C# and Ruby for a while and need to revisit them in the future.  
 
