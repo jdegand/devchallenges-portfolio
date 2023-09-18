@@ -103,6 +103,10 @@ a {
     cursor: pointer;
 }
 
+.gray {
+    color: #7c747c;
+}
+
 .demo {
     background: #2f80ed;
     color: #fff;
