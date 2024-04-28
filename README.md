@@ -56,14 +56,10 @@ Optional
 
 ## Thoughts 
 
-- I used example 2 as my design template.
-
-- I have resisted creating a portfolio.  Portfolios / Personal websites can become a timesink that you are *never* satified with.
-
-- I tried using a progress tag and a label for the skill bar.  WAVE accessibility tool complains about an orphaned label - even when the label's "for" attribute is linked to an id of the progress bar.  Apparently, if a label is not used inside a form, this warning will be thrown.  
-
-- Debatable if skill bars are good for your resume / portfolio.
-
+- I used Example 2 as my design template.
+- I have resisted creating a portfolio. Portfolios and personal websites can become a timesink that you are **never** satisfied with.
+- I tried using a progress tag and a label for the skill bar. The WAVE accessibility tool complains about an orphaned label, even when the label's "for" attribute is linked to an ID of the progress bar. Apparently, if a label is not used inside a form, this warning will be thrown.
+- It is debatable if skill bars are good for your resume or portfolio.
 - I used the Github API in another [porfolio project](https://github.com/jdegand/odin-project-personal-portfolio).  
 
 ## Useful Resources
