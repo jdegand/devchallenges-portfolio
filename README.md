@@ -27,9 +27,9 @@
 
 ## Overview
 
-![](devchallenges-portfolio.png "outdated challenge numbers")
+![Outdated Challenge Numbers](devchallenges-portfolio.png "outdated challenge numbers")
 
-![](devchallenges-portfolio-mobile.png)
+![Mobile](devchallenges-portfolio-mobile.png)
 
 ### Built With
 
@@ -41,7 +41,7 @@
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://legacy.devchallenges.io/challenges/5ZnOYsSXM24JWnCsNFlt) was to build an application to complete the given user stories.
 
-## Requirements 
+## Requirements
 
 - [x] I can see personal details
 - [x] I can see skills
@@ -50,16 +50,18 @@ This application/site was created as a submission to a [DevChallenges](https://d
 - [x] I can see hobbies or certificates
 
 Optional
+
 - [ ] I can see experiences
 - [ ] I can see blogs
 - [ ] I can see projects on different pages
 
-## Thoughts 
+## Thoughts
 
 - I used Example 2 as my design template.
 - I have resisted creating a portfolio. Portfolios and personal websites can become a timesink that you are **never** satisfied with.
 - I tried using a progress tag and a label for the skill bar. The WAVE accessibility tool complains about an orphaned label, even when the label's "for" attribute is linked to an ID of the progress bar. Apparently, if a label is not used inside a form, this warning will be thrown.
-- It is debatable if skill bars are good for your resume or portfolio.
+- It is debatable if skill bars are good for your resume or portfolio.  Since the design used them, I replicated it.
+- I periodically update my numbers, but I haven't changed the projects.
 - I used the Github API in another [porfolio project](https://github.com/jdegand/odin-project-personal-portfolio).  
 
 ## Useful Resources
