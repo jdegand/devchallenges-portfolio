@@ -1,7 +1,7 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body,
@@ -14,59 +14,59 @@ figure,
 blockquote,
 dl,
 dd {
-  margin: 0;
+    margin: 0;
 }
 
 ul,
 ol {
-  list-style: none;
+    list-style: none;
 }
 
 html:focus-within {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 body {
-  min-height: 100vh;
-  text-rendering: optimizeSpeed;
-  line-height: 1.5;
-  background: #f2f2f2;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    min-height: 100vh;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+    background: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 a:not([class]) {
-  text-decoration-skip-ink: auto;
+    text-decoration-skip-ink: auto;
 }
 
 img,
 picture {
-  max-width: 100%;
-  display: block;
+    max-width: 100%;
+    display: block;
 }
 
 input,
 button,
 textarea,
 select {
-  font: inherit;
+    font: inherit;
 }
 
 @media (prefers-reduced-motion: reduce) {
-  html:focus-within {
-   scroll-behavior: auto;
-  }
-  
-  *,
-  *::before,
-  *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
-  }
+    html:focus-within {
+        scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
 }
 
 section {
@@ -89,7 +89,7 @@ dt {
 
 h2 {
     margin-block-end: 10px;
-} 
+}
 
 a {
     -webkit-appearance: button;
@@ -128,8 +128,9 @@ a {
     background: #c4c4c4;
     border-radius: 25px;
     margin-inline: 10px;
-  }
-.meter > span {
+}
+
+.meter>span {
     display: block;
     height: 100%;
     border-radius: 16px;
@@ -211,28 +212,8 @@ progress {
     margin-inline: 10px;
     border-radius: 25px;
 }
-/* 
-styling if replacing meter bar with semantic html progress tag
 
-.flex label {
-    font-size: 18px;
-    color: #7c747c;
-    font-weight: bolder;
-}
-
-progress::-webkit-progress-bar {
-    background: #c4c4c4;
-    border-radius: 25px;
-}
-
-progress::-webkit-progress-value {
-    background-color: blue;
-    border-radius: 16px;
-    background-color: #2e85ec;
-}
-*/
-
-@media (min-width: 700px){
+@media (min-width: 700px) {
 
     main {
         display: grid;
@@ -287,7 +268,7 @@ progress::-webkit-progress-value {
     }
 }
 
-@media(min-width: 1050px){
+@media(min-width: 1050px) {
     main {
         grid-template-columns: repeat(3, 1fr);
     }

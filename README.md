@@ -10,7 +10,7 @@
       Live Link
     </a>
     <span> | </span>
-    <a href="https://legacy.devchallenges.io/challenges/5ZnOYsSXM24JWnCsNFlt">
+    <a href="https://web.archive.org/web/20240417025422/https://legacy.devchallenges.io/challenges/5ZnOYsSXM24JWnCsNFlt">
       Challenge
     </a>
   </h3>
@@ -29,7 +29,11 @@
 
 ![Outdated Challenge Numbers](devchallenges-portfolio.png "outdated challenge numbers")
 
+***
+
 ![Mobile](devchallenges-portfolio-mobile.png)
+
+***
 
 ### Built With
 
@@ -39,7 +43,7 @@
 
 ## Features
 
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://legacy.devchallenges.io/challenges/5ZnOYsSXM24JWnCsNFlt) was to build an application to complete the given user stories.
+This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://web.archive.org/web/20240417025422/https://legacy.devchallenges.io/challenges/5ZnOYsSXM24JWnCsNFlt) was to build an application to complete the given user stories. **Note**: The previous design document may be incomplete, as you need to find an archived version of the challenge as all `legacy` challenges have had their documentation removed from DevChallenges.
 
 ## Requirements
 
