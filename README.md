@@ -39,7 +39,6 @@
 
 - HTML
 - CSS
-- JS
 
 ## Features
 
@@ -66,7 +65,8 @@ Optional
 - I tried using a progress tag and a label for the skill bar. The WAVE accessibility tool complains about an orphaned label, even when the label's "for" attribute is linked to an ID of the progress bar. Apparently, if a label is not used inside a form, this warning will be thrown.
 - It is debatable if skill bars are good for your resume or portfolio.  Since the design used them, I replicated it.
 - I periodically update my numbers, but I haven't changed the projects.
-- I used the Github API in another [porfolio project](https://github.com/jdegand/odin-project-personal-portfolio).  
+- I used the Github API in another [porfolio project](https://github.com/jdegand/odin-project-personal-portfolio).
+- The project included a script to track my daily walking streak. However, after my streak ended, I decided to remove it.  
 
 ## Useful Resources
 
